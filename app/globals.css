@@ -2,8 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url("https://use.typekit.net/lkk4yow.css") crossorigin;
-
+@font-face {
+  font-family: "EurostileBold";
+  src: url(/assest/fonts/eurostilefont/EurostileBold.ttf);
+}
 
 *{
     cursor: none !important;
