@@ -1,8 +1,7 @@
 import Link from "next/link"
 import '../../app/globals.css'
 import Themebutton from "../ThemeButton"
-
-
+import Image from "next/image"
  
 const Navigation = () => {
   return (
@@ -30,7 +29,7 @@ const Navigation = () => {
             />
           </svg>
        
-       <div className="hidden w-full md:flex md:items-center md:w-auto border-x" id="menu">
+       <div className="hidden w-full md:flex md:items-center md:w-auto" id="menu">
           <ul
             className="
               pt-4
@@ -52,27 +51,11 @@ const Navigation = () => {
             </li>
           </ul>
         </div>
-        <div className="hidden w-full md:flex md:items-center md:w-auto border-l" id="menu">
-          <ul
-            className="
-              pt-4
-              md:flex
-              md:justify-between 
-              md:pt-0">
-            <li>
-              <Link
-                className="md:p-4 py-2 block hover:underline"
-                href="#">
-                  CLIENT LOG IN
-                </Link>
-            </li>
-          </ul>
-          <Themebutton/>
-        </div>
     </nav>
   </header>
 
   )
 }
+
 
 export default Navigation

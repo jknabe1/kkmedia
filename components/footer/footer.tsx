@@ -4,7 +4,7 @@ import Link from "next/link"
 const footer = () => {
   return (
     <div>
-      <footer className="px-4 divide-y dark:bg-black dark:text-white  ">
+      <footer className="px-4 divide-y dark:bg-black dark:text-white border-2">
 	<div className="container flex flex-col justify-between pt-10 pb-[90px] mx-auto space-y-8 lg:flex-row lg:space-y-0">
 		<div className="lg:w-1/3">
 			<Link rel="noopener noreferrer" href="#" className="flex justify-center space-x-3 lg:justify-start">
@@ -91,9 +91,6 @@ const footer = () => {
 			</div>
 		</div>
 	</div>
-		<div className="py-6 text-sm text-center dark:text-gray-400">© K&K MEDIA GROUP SWEDEN AB<br/>SKAPAD AV: 
-			<Link href="mailto:contact@kkmedia.se"><b> OSS, SÅ KLART  </b></Link>.
-		</div>
 	</footer>
 </div>
   )
