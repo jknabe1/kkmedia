@@ -1,0 +1,9 @@
+{
+    "name": "K&K MEDIA GROUP",
+    "theme_color": "#ffffff",
+    "background_color": "#000000",
+    "display": "browser",
+    "orientation": "portrait",
+    "scope": "/",
+    "start_url": "/"
+  }
