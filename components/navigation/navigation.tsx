@@ -38,16 +38,16 @@ const Navigation = () => {
               md:pt-0"
           >
             <li>
-              <Link className="md:p-4 py-2 block hover:underline" href="#"> WORK</Link>
+              <Link className="md:p-4 py-2 block hover:underline" href="/work"> WORK</Link>
             </li>
             <li>
-              <Link className="md:p-4 py-2 block hover:underline" href="#">SERVICES</Link>
+              <Link className="md:p-4 py-2 block hover:underline" href="/services">SERVICES</Link>
             </li>
             <li>
-              <Link className="md:p-4 py-2 block hover:underline" href="#">ABOUT</Link>
+              <Link className="md:p-4 py-2 block hover:underline" href="/about">ABOUT</Link>
             </li>
             <li>
-              <Link className="md:p-4 py-2 block hover:underline" href="#">CONTACT</Link>
+              <Link className="md:p-4 py-2 block hover:underline" href="/contact">CONTACT</Link>
             </li>
           </ul>
         </div>
@@ -56,6 +56,7 @@ const Navigation = () => {
 
   )
 }
+
 
 
 export default Navigation
