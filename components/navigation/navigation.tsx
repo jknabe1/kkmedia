@@ -9,7 +9,7 @@ const Navigation = () => {
         <nav className="flex flex-wrap items-center justify-between w-full py-4 md:py-0 px-4 text-lg text-black bg-white dark:bg-black dark:text-white border-black dark:border-white  border-2 sticky top-0 z-50">       
         <div className="">
           <Link href="/">
-          <span className="self-center text-2xl font-semibold mix-blend-difference dark:color-white color-black">K&amp;K MEDIA GROUP</span>
+          <span className="self-center text-2xl font-semibold mix-blend-difference dark:color-white color-black no-underline">K&amp;K MEDIA GROUP</span>
           </Link>
         </div>
        

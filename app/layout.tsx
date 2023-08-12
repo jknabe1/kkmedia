@@ -28,7 +28,7 @@ export default function RootLayout(
  {
   return (
     <html lang="SE_sv" suppressHydrationWarning>
-      <link rel="manifest" href="/public/manifest.json" />
+      <link rel="manifest" href="/manifest.json" />
       <script async src="//instant.page/5.2.0" type="module" integrity="sha384-jnZyxPjiipYXnSU0ygqeac2q7CVYMbh84q0uHVRRxEtvFPiQYbXWUorga2aqZJ0z"></script>
       <body>
         <Cursor/>
